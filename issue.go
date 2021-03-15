@@ -19,7 +19,7 @@ func (i *Issue) Code() {
 	fmt.Printf("There is an issue(%s, %s).", anyString[0], i.param.param)
 }
 
-func main() {
+func Code2() {
 	var i Issue
 	i.Code()
 }
